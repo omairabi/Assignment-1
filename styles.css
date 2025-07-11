@@ -20,11 +20,50 @@ h3{
     color: #4E47FF;
     
 }
-p{
-    color: #252432;
+
+
+h1 {
+    color: black;
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
 }
-div{
+.hero-content {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 50px 0;
+}
+.hero-text {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    color: black;
+    border-radius: 10px;
+}
+
+
+
+header {
+    background-image: url('./Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h1{
+    font-weight: bolder;
+}
+.action{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    padding: 78px 14px;
+    align-items: center;
+    
 }
 
 
