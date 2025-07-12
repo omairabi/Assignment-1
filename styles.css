@@ -228,3 +228,28 @@ main section{
 .contact-form button:hover{
     background-color: #2563eb;
 }
+.container{
+    padding: 100px 20px;
+}
+.logo{
+    color: #4E47FF;
+    font-size: 60px;
+    margin: 0;
+}
+.description{
+    color: #777;
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 16px;
+}
+.navbar{
+   
+    color: #555;
+    margin: 0 0px;
+    font-size: 16px;
+    justify-content:space-around;
+   
+}
+.navbar a:hover{
+    color: #4E47FF;
+    
