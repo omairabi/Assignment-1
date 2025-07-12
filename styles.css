@@ -56,6 +56,7 @@ header {
 }
 .h1{
     font-weight: bolder;
+    font-size: 30px;
 }
 .action{
     display: flex;
@@ -63,7 +64,32 @@ header {
     justify-content:space-around;
     padding: 78px 14px;
     align-items: center;
+    margin: 0 auto;
     
+}
+img{
+    border-radius: 15px;
+}
+
+.users-bg{
+    background-color: #dedef1;
+}
+.section-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+.productive-users{
+    display: flex;
+    justify-content: space-around;
+    width: 540px;
+    margin: 0 auto;
+}
+.productive-user span{
+    font-size: 42px;
+    color: #4E47FF;
+    font-weight: 700;
 }
 
 
@@ -77,4 +103,74 @@ header {
     border-radius: 5px;
     font-size: 12px;
     border: none;
+}
+main section{
+    max-width: 540px;
+    margin: 0 auto;
+    padding:10px 20px;
+    border-radius: 15px;
+    
+}
+.user{
+    font-weight: bolder;
+    color: #4E47FF;
+    
+}
+
+.productive-users{
+    display: flex;
+    justify-content: space-around;
+}
+.testimonial{
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    max-width: 500px;
+    box-shadow: 0 4px 15px;
+    text-align: left;
+}
+.testimonials{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+
+}
+.testimonial-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.testimonials h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #222;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.testimonial h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #222;
+}
+.testimonial p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.reviewer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.name{
+    font-weight: bold;
+    margin: 0;
+}
+.date{
+    font-size: 12px;
+    color: #888;
+    margin: 0;
 }
